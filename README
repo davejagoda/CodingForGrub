@@ -20,5 +20,18 @@ Whatever stuff was before the date|1999-12-31T23:59:59-0800|whatever stuff was a
 The dates that are in the sample file will have no dates before January 1, 1970.
 
 If you see a string like Saturday, November 12, you can assume that
-the string "Saturday" is part of the date specific and not part of the
-non-date information.
+the string "Saturday" is part of the date specification and not part
+of the non-date information.
+
+There are no numbers other than dates.  The only numbers that are in
+use are Arabic numerals (no Roman numerals, no Chinese numerals).
+
+Here are the locales that are in use in the datesentences: 
+en_US
+en_GB
+it_IT
+es_ES
+ru_RU
+de_DE
+fr_FR
+ja_JP
