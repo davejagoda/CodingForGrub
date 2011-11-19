@@ -1,0 +1,8 @@
+Please join us on|2011-01-01|for a party.
+The final exam will be on|2012-02-02T15:00:00-08:00|.
+The winter solstice will be on|2012-12-22T05:30Z|.
+世界は|2012-12-21|に終了します。
+私の誕生日は|2000-12-21|である。
+Today is|2011-11-18|.
+Buenos días, es|2011-11-12|!
+おはようございます、それは、|2011-11-12|！
