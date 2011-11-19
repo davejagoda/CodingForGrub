@@ -1,0 +1,21 @@
+Two files so far:
+
+Sample file to parse (datesentences.txt)
+
+Sample parsed file (answers.txt)
+
+Write code that will take the raw file and generate the parsed file.
+
+The program should extract just the date info, convert it to RFC3339 format.
+
+If just the date is found, produce something like this:
+Whatever stuff was before the date|1999-12-31|whatever stuff was after the date
+
+If just the date and time are found, produce something like this:
+Whatever stuff was before the date|1999-12-31T23:59|whatever stuff was after the date.
+
+If the date, time, and timezone were found, produce something something like this:
+Whatever stuff was before the date|1999-12-31T23:59:59-0800|whatever stuff was after the date.
+
+The dates that are in the sample file will have no dates before January 1, 1970.
+
