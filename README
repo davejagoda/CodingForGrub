@@ -8,6 +8,11 @@ Write code that will take the raw file and generate the parsed file.
 
 The program should extract just the date info, convert it to RFC3339 format.
 
+If it can't find any date, or can't parse it correctly, just print
+"None" so that the automatic answer checking using 'diff' will be
+easier to analyze).  If there are n-many lines in the input, there
+should be n-many lines in the output.
+
 If just the date is found, produce something like this:
 Whatever stuff was before the date|1999-12-31|whatever stuff was after the date
 
