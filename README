@@ -19,3 +19,6 @@ Whatever stuff was before the date|1999-12-31T23:59:59-0800|whatever stuff was a
 
 The dates that are in the sample file will have no dates before January 1, 1970.
 
+If you see a string like Saturday, November 12, you can assume that
+the string "Saturday" is part of the date specific and not part of the
+non-date information.
